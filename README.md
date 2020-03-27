@@ -11,4 +11,4 @@ InputManagerにPresetを適用させる記事を書いた際のサンプルプ�
 ## License
 プロジェクト及びソースはMIT Licenseで配布しています。
 
-[ライセンス原文](https://github.com/mtytheone/Preset-InputManager/blob/master/README.md)
+[ライセンス原文](https://github.com/mtytheone/Preset-InputManager/blob/master/LICENSE.md)
