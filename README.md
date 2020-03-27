@@ -1,6 +1,6 @@
 # Preset InputManager
 
-[![License:MIT](https://img.shields.io/badge/License-MIT-819FF7.svg)](https://choosealicense.com/licenses/gpl-3.0/)
+[![License:MIT](https://img.shields.io/badge/License-MIT-819FF7.svg)](https://github.com/mtytheone/Preset-InputManager/blob/master/LICENSE.md)
 
 ## About
 InputManagerにPresetを適用させる記事を書いた際のサンプルプロジェクトです。
