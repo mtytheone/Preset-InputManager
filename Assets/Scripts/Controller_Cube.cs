@@ -52,17 +52,12 @@ namespace hatuxes.InputManagerPreset
 
             Debug.Log(_controllerName);
 
+            //InputManagerを取得
+            Object manager = AssetDatabase.LoadAssetAtPath<Object>("ProjectSettings/InputManager.asset");
+
             //コントローラー別にInputManagerにPresetを反映
-            if (_controllerName == "Controller (XBOX 360 For Windows)")
-            {
-                Object manager = AssetDatabase.LoadAssetAtPath<Object>("ProjectSettings/InputManager.asset");
-                _XBoxPreset.ApplyTo(manager);
-            }
-            else if (_controllerName == "Wireless Controller")
-            {
-                Object manager = AssetDatabase.LoadAssetAtPath<Object>("ProjectSettings/InputManager.asset");
-                _PS4Preset.ApplyTo(manager);
-            }
+            if (_controllerName == "Controller (XBOX 360 For Windows)") _XBoxPreset.ApplyTo(manager);
+            else if (_controllerName == "Wireless Controller") _PS4Preset.ApplyTo(manager);
         }
 
         void Start()
